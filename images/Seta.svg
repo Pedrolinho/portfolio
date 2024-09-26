@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <g id="Arrow" transform="translate(152 152) rotate(180)">
+    <path id="Caminho_1" data-name="Caminho 1" d="M77,2a75,75,0,1,0,75,75A75,75,0,0,0,77,2Zm0,135a60,60,0,1,1,60-60,60,60,0,0,1-60,60Z" fill="#1c1b22"/>
+    <path id="Caminho_2" data-name="Caminho 2" d="M7.293,45.888,17.9,56.493,42.6,31.8l24.7,24.7L77.9,45.888l-35.3-35.3Z" transform="translate(34.404 55.809)" fill="#1c1b22"/>
+    <path id="Caminho_3" data-name="Caminho 3" d="M7.293,41.889l10.6,10.6L42.6,27.8l24.7,24.7L77.9,41.889,42.6,6.586Z" transform="translate(34.404 29.809)" fill="#1c1b22"/>
+  </g>
+</svg>

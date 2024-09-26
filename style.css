@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    font-family: Source Code Pro,sans-serif;
+    font-size: 3.5rem;
+    word-spacing: -1rem;
+    letter-spacing: -0.1rem;
+    line-height: 0.95;
+
+    padding: 0.5rem 0rem;
+}
+.corpo {
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;     
+    word-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
+
+    padding: 0.5rem 0rem;
+}
+.destaque {
+    color: #F092DD;
+}
+
+.espaco {
+    background-color: #F092DD;
+    height: 8vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.circulo {
+    background-color: #F092DD;
+
+    width: 500px;      
+    height: 500px;        
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: none; /* Remove o fundo padrão */
+    border: none;     /* Remove a borda padrão */
+    cursor: pointer;  /* Muda o cursor para pointer */
+    padding: 0;       /* Remove o padding */
+}
+
+body {
+    background: #1c1b22;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff
+}
+
+ul {
+    list-style: none;
+}
+
+#cabecalho {
+    padding: 1.5rem 10rem;
+
+    height: 15vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between; 
+    align-items: center;
+}
+#nome {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#menu, #github {
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    text-transform: uppercase;
+}
+
+#home {
+    padding: 1.5rem 10rem;
+
+    height: 77vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between; 
+    align-items: center;
+}
+#apresentacao {
+    padding: 6rem 0rem;
+
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#img-perfil {
+    padding: 1.5rem 0rem;
+
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+#skills {
+    background-color: #F092DD;
+    height: 108vh;
+}
+
+#seta {
+    color: #F092DD;
+    width: 90%;
+    height: 90%;
+}
