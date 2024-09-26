@@ -9,7 +9,7 @@
 <body>  
     <header>
         <nav id="cabecalho">
-            <span id="nome">
+            <span id="nome"><a href="https://pedrolinho.github.io/portfolio/">
                 <span class="destaque""
                     >&lt
                 </span>
@@ -17,18 +17,19 @@
                 <span class="destaque">
                     /&gt
                 </span>
-            </span>
+            </a></span>
             <ul id="menu">
-                <li><a>Home</a></li>
-                <li><a>Skills</a></li>
-                <li><a>Experiências</a></li>
-                <li><a>Contato</a></li>
+                <li data-target="home" class="active">Home</li>
+                <li data-target="skills">Skills</li>
+                <li data-target="experiencias">Experiências</li>
+                <li data-target="contato">Contato</li>
             </ul>
             <a href="https://github.com/pedrolinho" id="github">GitHub</a>
         </nav>
     </header>
+
     <main>
-        <section id="home">
+        <section id="home" class="home active">
             <div id="apresentacao">
                 <p class="corpo">
                     Estudante Universitário
@@ -48,20 +49,52 @@
                 <img id="perfil" src="./images/Foto Perfil.svg" alt="Perfil Pedro André">
             </div>
         </section>
-        <section id="skills">
-            <div class="espaco">
-                <button class="botao">
-                    <img id="seta" src="./images/Seta.svg" alt="Seta">
-                </button>
-            </div>
 
+        <section id="skills" class="skills">
+            <div class="sessao">
+                <h1>
+                    <span class="destaque""
+                        >&lt
+                    </span>
+                    Skills
+                    <span class="destaque">
+                        /&gt
+                    </span>    
+                </h1>
+            </div>
         </section>
-        <section id="experiencias">
-            
+
+        <section id="experiencias" class="experiencias">
+            <div class="sessao">
+                <h1>
+                    <span class="destaque""
+                        >&lt
+                    </span>
+                    Experiências
+                    <span class="destaque">
+                        /&gt
+                    </span>    
+                </h1>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <div class="sessao">
+                <h1>
+                    <span class="destaque""
+                        >&lt
+                    </span>
+                    Contato
+                    <span class="destaque">
+                        /&gt
+                    </span>    
+                </h1>
+            </div>
         </section>
     </main>
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
