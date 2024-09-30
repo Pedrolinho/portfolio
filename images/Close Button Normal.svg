@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <clipPath id="clip-Close_Button_Normal">
+      <rect width="256" height="256"/>
+    </clipPath>
+  </defs>
+  <g id="Close_Button_Normal" data-name="Close Button Normal" clip-path="url(#clip-Close_Button_Normal)">
+    <g id="X_Normal">
+      <rect id="Retângulo_2" data-name="Retângulo 2" width="200" height="30" rx="15" transform="translate(209.634 68.213) rotate(135)" fill="#fff"/>
+      <rect id="Retângulo_3" data-name="Retângulo 3" width="200" height="30" rx="15" transform="translate(68.213 47) rotate(45)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

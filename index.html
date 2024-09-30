@@ -5,23 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro André - Portfólio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="modal.css">
 </head>
-<body>  
+<body> 
+    <div id="fade" class="hide"></div>
+    <div id="modal" class="hide">
+        <div id="modal-header">
+            <h2 id="modal-header-projetos" class="hide">
+                <span class="destaque">&gt</span>
+                Projetos
+            </h2>
+            <h2 id="modal-header-criacoes" class="hide">
+                <span class="destaque">&gt</span>
+                Criações
+            </h2>
+            <button id="modal-close"> 
+            </button>
+        </div>
+        <div id="mapeamento-sistematico" class="modal-section modal-hide">
+            <div class="modal-descricao">
+                <h2>Mapeamento Sistemático<br><br></h1>
+                <p> 
+                    Este é um projeto de iniciação científica do Departamento de 
+                    Informática da UFPR atualmente em andamento, ele visa a escrita
+                    de um artigo com o tema "Presença Feminina na Indústria de Jogos". 
+                    <br><br>
+                    O processo de escrita envolve a colaboração com outros alunos e
+                    professores e a utilização do método de coleta de dados conhecido
+                    como snowballing.
+                    <br><br>
+                    Neste projeto fiz o uso da linguagem python auxiliando um dos professores
+                    na criação de scripts para a busca de artigos existentes na literatura.
+                </p>
+            </div>
+            <div class="modal-imgs">
+                Tudo bem
+            </div>
+        </div>
+        <div id="ufpr-baja" class="modal-section modal-hide">
+            <div class="modal-descricao">
+                <h2>UFPR BAJA<br><br></h2>
+                <p>
+                    A UFPR Baja é um projeto de extensão feito por alunos com o objetivo
+                    de fabricar um carro Off-Road e participar de competições.
+                    <br><br>
+                    Durante minha participação na equipe, trabalhei no sistema elétrico do carro,
+                    utililizando sistemas embarcados (STM32 e Arduíno), e a linguagem python
+                    para a análise de testes de desempenho.
+                    <br><br>
+                    Também fiz parte da gestão de arquivos e materiais da equipe, buscando
+                    manter a documentação e ambiente organizados. Além disso, nos momentos oportunos
+                    auxiliava a equipe de marketing.
+            </div>
+            <div class="modal-imgs">
+
+            </div>
+        </div>
+        <div id="paft-puc" class="modal-section modal-hide">
+            <div class="modal-descricao">
+                <h2>Programa de Atração de Formação de Talentos - PUCPR<br><br></h2>
+                <p> 
+                    Este programa foi um curso realizado em parceria entre a PUCPR,
+                    Visionnaire e Bradesco, onde participei da trilha de estudos back-end.
+                    <br><br>
+                    Foi minha primeira experiência em prática de programação. O curso foi
+                    ministrado com a metodologia CBL (Challange Based Learning).
+                    <br><br>
+                    Neste curso realizei diversos projetos utilizando as linguagens
+                    Java e JavaScript, junto de frameworks.
+                </p>
+            </div>
+            <div class="modal-imgs">
+
+            </div>
+        </div>
+        <div id="cientista-sincero" class="modal-section modal-hide">
+            <div class="modal-descricao">
+                <h2>Cientista Sincero<br><br></h1>
+                <p>
+                    O Cientista Sincero é um projeto de extensão com fins de divulgação científica
+                    coornado por um professor do curso de Física da UFPR.
+                    <br><br>
+                    Estive no projeto como voluntário e realizei trabalhos de edição de imagem,
+                    edição de vídeo e roteiro, principalmente em vídeos "shorts" para o Youtube.
+                </p>
+            </div>
+            <div class="modal-imgs">
+
+            </div>
+        </div>
+        <div id="jokenpog" class="modal-section modal-hide">
+            <div class="modal-descricao">
+                <h2>JokenpoG<br><br></h2>
+                <p>
+                    Projeto realizado com amigos no início da pandemia em 2020.
+                    JokenpoG foi uma equipe de e-sports mobile com um canal no Youtube
+                    com foco em jogos mobile, principalmente no jogo Call of Duty: Mobile.
+                    <br><br>
+                    Ocupei a função de administrar a equipe em conjunto com outra pessoa,
+                    gerindo os membros, organizando competições e partidas com outras equipes,
+                    além de eventos esporádicos. Também trabalhei em edição de imagens ao fazer
+                    tabelas das competições e imagens promocionais de pequenos eventos na equipe.
+                </p>
+            </div>
+            <div class="modal-imgs">
+
+            </div>
+        </div>
+    </div>
+
     <header>
         <nav id="cabecalho">
             <span id="nome"><a href="https://pedrolinho.github.io/portfolio/">
-                <span class="destaque""
-                    >&lt
-                </span>
+                <span class="destaque">&lt</span>
                 Pedro André
-                <span class="destaque">
-                    /&gt
-                </span>
+                <span class="destaque">/&gt</span>
             </a></span>
             <ul id="menu">
                 <li data-target="home" class="active">Home</li>
                 <li data-target="skills">Skills</li>
-                <li data-target="experiencias">Experiências</li>
+                <li data-target="projetos">Projetos</li>
+                <li data-target="criacoes">Criações</li>
                 <li data-target="contato">Contato</li>
             </ul>
             <a href="https://github.com/pedrolinho" id="github">GitHub</a>
@@ -31,13 +135,13 @@
     <main>
         <section id="home" class="home active">
             <div id="apresentacao">
-                <p class="corpo">
+                <p>
                     Estudante Universitário
                 </p>
-                <h1 class="titulo">
-                    Olá! Eu sou o <span class="destaque">Pedro André</span>
+                <h1 id="hello">
+                    Olá! Eu sou o<br><span class="destaque">Pedro André</span>
                 </h1>
-                <p class="corpo">
+                <p>
                     Atualmente com 22 anos, sou estudante de Física na
                     Universidade Federal do Paraná e possuo interesse
                     nas áreas de desenvolvimento
@@ -64,17 +168,31 @@
             </div>
         </section>
 
-        <section id="experiencias" class="experiencias">
-            <div class="sessao">
-                <h1>
-                    <span class="destaque""
-                        >&lt
-                    </span>
-                    Experiências
-                    <span class="destaque">
-                        /&gt
-                    </span>    
-                </h1>
+        <section id="projetos" class="projetos">
+            <div id="nome_projetos">
+                <button id="btn-mapeamento-sistematico" class="card_projeto">
+                    Mapeamento<br>Sistemático
+                </button>
+                <button id="btn-ufpr-baja" class="card_projeto">
+                    UFPR Baja
+                </button>
+                <button id="btn-paft-puc" class="card_projeto">
+                    PAFT-PUCPR
+                </button>
+                <button id="btn-cientista-sincero" class="card_projeto">
+                    Cientista<br>Sincero
+                </button>
+                <button id="btn-jokenpog" class="card_projeto">
+                    JokenpoG
+                </button>
+            </div>
+        </section>
+
+        <section id="criacoes" class="criacoes">
+            <div id="nome_criacoes">
+                <button class="card_criacao">
+                    Dojô Japonês
+                </button>
             </div>
         </section>
 
