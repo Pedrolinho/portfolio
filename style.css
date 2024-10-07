@@ -119,13 +119,6 @@ p {
     display: none;
 }
 
-button {
-    background: none; /* Remove o fundo padrão */
-    border: none;     /* Remove a borda padrão */
-    cursor: pointer;  /* Muda o cursor para pointer */
-    padding: 0;       /* Remove o padding */
-}
-
 body {
     background: #1c1b22;
     color: #ffffff;
@@ -154,7 +147,7 @@ footer {
 
 a {
     text-decoration: none;
-    color: #ffffff
+    color: #ffffff;
 }
 
 ul {

@@ -73,13 +73,25 @@
     text-align: justify;
 }
 
-.modal-imgs {
+.modal-midias {
     height: 100%; /* 100% da altura de .modal-section */
     width: 65%; /* 65% da largura de .modal-section */
     padding-left: 1rem;
     border-left: 1px solid #ffffff; /* Marcação de separação */
 
-    display: flex
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+#modal-btn {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .modal-hide {

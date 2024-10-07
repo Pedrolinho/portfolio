@@ -1,0 +1,57 @@
+/* Reseta confifurações padrão dos botões */
+button {
+    background: none; /* Remove o fundo padrão */
+    border: none;     /* Remove a borda padrão */
+    cursor: pointer;  /* Muda o cursor para pointer */
+    padding: 0;       /* Remove o padding */
+}
+
+/* Estilo padrão para os botões que redirecionam para links */
+.btn-files {
+    background-color: #2b2932; /* Fundo */
+
+    height:10%;            /* Altura do elemento */
+    width: 100%;              /* Largura do elemento */
+
+    border-radius: 1rem;     /* Cantos arredondados */
+    padding: 10px 20px;      /* Espaçamento interno */
+    margin: .4rem 0rem;
+
+    cursor: pointer;         /* Cursor de ponteiro ao passar o mouse */
+    display: flex;           /* Disposição dos elementos dentro do botão */
+}
+
+#github-logo,
+#drive-logo,
+#youtube-logo {
+    height: 100%;   /* Altura do elemento */
+    width: 100%;    /* Largua do elemento */
+
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+#github-logo {
+    background-image: url(./images/GitHub_Icon&Logo.svg);
+}
+#drive-logo {
+    background-image: url(./images/Drive_Icon&Logo.svg);
+}
+#youtube-logo {
+    background-image: url(./images/Youtube_Icon&Logo.svg);
+}
+.btn-files:hover,
+.btn-files:hover #github-logo,
+.btn-files:hover #drive-logo,
+.btn-files:hover #youtube-logo {
+    background-color: #ffffff;
+}
+.btn-files:hover #github-logo {
+    background-image: url(./images/GitHub_Icon&LogoHover.svg);
+}
+.btn-files:hover #drive-logo {
+    background-image: url(./images/Drive_Icon&LogoHover.svg);
+}
+.btn-files:hover #youtube-logo {
+    background-image: url(./images/Youtube_Icon&LogoHover.svg);
+}
