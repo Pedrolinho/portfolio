@@ -72,9 +72,6 @@ document.getElementById('btn-paft-puc').addEventListener('click', () => {
 document.getElementById('btn-cientista-sincero').addEventListener('click', () => {
     openModal('cientista-sincero', modalHeaderProjetos);
 });
-document.getElementById('btn-jokenpog').addEventListener('click', () => {
-    openModal('jokenpog', modalHeaderProjetos);
-});
 
 // Evento para fechar o modal ao clicar no botão de fechar
 closeModalButton.addEventListener('click', closeModal);

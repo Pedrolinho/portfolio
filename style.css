@@ -64,6 +64,24 @@ p {
     flex-direction: column;
 }
 
+.bloco-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* centraliza os <p> dentro do próprio bloco */
+    text-align: center;        /* centraliza o texto */
+    gap: 0.5rem;               /* espaço entre os parágrafos */
+    margin: 0 auto;            /* centraliza o bloco em relação ao pai */
+}
+
+.creation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem; /* espaço entre o título e o botão */
+}
+
 .sessao {
     height: 10vh;
     width: 100%;
